@@ -3,7 +3,7 @@
 
   {% for post in site.posts limit:6 %}
     {% if post.url != page.url %}
-      <a href='{{ url }}' class='c-teaser'>
+      <a href='{{ post.url }}' class='c-teaser'>
         <div class='c-teaser__content'>
           <h3 class='c-teaser__title'>{{ post.title }}</h3>
         </div>
