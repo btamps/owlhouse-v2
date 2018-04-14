@@ -157,10 +157,10 @@ $(document).ready(function() {
 
   var instagramFeed = new Instafeed({
     get: 'user',
-    limit: 6,
+    limit: 12,
     resolution: 'thumbnail',
-    userId: '441902919',
-    accessToken: '441902919.1677ed0.f529ef23cd5e42c48fd5c402dc0732fc',
+    userId: '5547650421',
+    accessToken: '5547650421.1677ed0.d3eb65df717943198b388daf54786b39',
     template:
       '<div class="c-widget-instagram__item"><a href="{{link}}" title="{{caption}}" aria-label="{{caption}}" target="_blank"><img src="{{image}}"></a></div>'
   });
