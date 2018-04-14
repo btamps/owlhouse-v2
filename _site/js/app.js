@@ -157,8 +157,8 @@ $(document).ready(function() {
 
   var instagramFeed = new Instafeed({
     get: 'user',
-    limit: 12,
-    resolution: 'thumbnail',
+    limit: 6,
+    resolution: 'standard_resolution',
     userId: '5547650421',
     accessToken: '5547650421.1677ed0.d3eb65df717943198b388daf54786b39',
     template:
